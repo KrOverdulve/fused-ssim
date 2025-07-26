@@ -17,12 +17,6 @@ fallback_archs = [
     "-gencode=arch=compute_80,code=sm_80",
     # Ada Lovelace (RTX 40-series, L4, L40, etc.) – compute capability 8.9
     "-gencode=arch=compute_89,code=sm_89",
-    # Hopper (H100, H200) – compute capability 9.0
-    "-gencode=arch=compute_90,code=sm_90",
-    # Blackwell early (e.g., B100) – compute capability 10.0
-    "-gencode=arch=compute_100,code=sm_100",
-    # Blackwell newer variant (e.g., B200) – compute capability 10.1
-    "-gencode=arch=compute_101,code=sm_101",
 ]
 
 nvcc_args = [
